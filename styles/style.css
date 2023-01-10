@@ -1,40 +1,23 @@
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 2.1fr 0.4fr;
+    grid-template-columns: 0.9fr 1.1fr 1fr;
+    grid-template-rows: 1fr 1.4fr 0.6fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-        "Header Header Header"
+        "header header header"
         "main main main"
-        "Footer Footer Footer";
+        "footer footer footer";
 }
 
-.Header {
-    grid-area: Header;
+.header {
+    grid-area: header;
 }
 
 .main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "Banner Banner Banner"
-        "Form Form Form"
-        "Form Form Form";
     grid-area: main;
 }
 
-.Banner {
-    grid-area: Banner;
-}
-
-.Form {
-    grid-area: Form;
-}
-
-.Footer {
-    grid-area: Footer;
+.footer {
+    grid-area: footer;
 }
