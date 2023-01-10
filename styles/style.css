@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 2.1fr 0.4fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Header Header Header"
+        "main main main"
+        "Footer Footer Footer";
+}
+
+.Header {
+    grid-area: Header;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Banner Banner Banner"
+        "Form Form Form"
+        "Form Form Form";
+    grid-area: main;
+}
+
+.Banner {
+    grid-area: Banner;
+}
+
+.Form {
+    grid-area: Form;
+}
+
+.Footer {
+    grid-area: Footer;
+}
