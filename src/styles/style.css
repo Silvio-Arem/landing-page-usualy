@@ -33,3 +33,12 @@ main{
     flex-direction: row;
     margin-top: 50px;
 }
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+}
+
+.aside_title{
+    
+}
