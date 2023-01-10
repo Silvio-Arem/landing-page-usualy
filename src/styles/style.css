@@ -24,6 +24,10 @@ li {
     margin: 20px;
 }
 
+a{
+    color: white;
+}
+
 h1 {
     font-weight: 200;
 }
@@ -46,4 +50,8 @@ h2 {
 p{
     line-height: 20px;
     max-width: 500px;
+}
+
+img{
+    width: 580px;
 }
