@@ -19,9 +19,26 @@ header {
     line-height: 10px;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
+}
+
+a:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+#title_btn{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#title_btn:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+    transition: 0.3s all;
 }
 
 li {
@@ -48,11 +65,11 @@ h2 {
     color: rgb(132, 14, 201);
 }
 
-p{
+p {
     line-height: 20px;
     max-width: 500px;
 }
 
-img{
+img {
     width: 580px;
 }
